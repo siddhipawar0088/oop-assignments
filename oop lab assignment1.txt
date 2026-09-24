@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+class Book
+{
+public:
+    string titlename;
+    string writer;
+    int cost;
+    int pages;
+
+    void showbook()
+    {
+        cout << "Book Name: " << titlename << endl;
+        cout << "Writer: " << writer << endl;
+        cout << "Cost: " << cost << endl;
+        cout << "Pages: " << pages << endl;
+    }
+};
+
+int main()
+{
+    Book b1;
+
+    b1.titlename = "Python";
+    b1.writer = "Rajendra Desai";
+    b1.cost = 750;
+    b1.pages = 208;
+
+    b1.showbook();
+
+    return 0;
+}
