@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-clas books
+class books
 {
 public:
     string title;
     string author;
     int price;
-    int psages;
+    int pages;
     // Default Constructor
     books()
     {
